@@ -45,6 +45,3 @@ To run the project locally:
 - Projects showcase
 - Contact form
 - Responsive design
-
-## License
-This project is licensed under the [MIT License](LICENSE).
