@@ -12,7 +12,7 @@ export const Intro = () => {
         <span className='hello'>Hello, </span>
         <span className='introText'>I'm <span className='introName'>Mosa</span> <br/> Technical PM — Design & <br/> Product Thinking </span>
         <p className="introPara">Focused on transforming concepts into successful, user-centered products</p>
-        <Link><button className="btn"><img src={btnImg} alt="Hire" className='btnImg'/> Open to collaborations </button></Link>
+        <Link><button className="btn"><img src={btnImg} alt="" className='btnImg'/> Open to collaborations </button></Link>
         </div>
         <img src={bg} alt="profile" className="bg" />
     </section>
