@@ -19,18 +19,18 @@ export const Works = () => {
         logo: wtflogo,
         name: 'WTF Academy (Africa)',
         description: 'An Open Source University for talents to get onchain ',
-        logoStyle: { width: '83.5px', height: '35px', margin: '10px 0px' }, // Specific dimensions for project 2
+        logoStyle: { width: '83px', height: '33px', margin: '10px 0px' }, // Specific dimensions for project 2
       },
     {
       logo: 'pdao.png', // replace with actual logo path
       name: 'PeopleDAO',
-      description: 'A brief description of project three.',
+      description: 'A metaDAO incubating public good projects for the people',
       logoStyle: { width: '49px', height: '49px' },
     },    
     {
         logo: 'ts.png', // replace with actual logo path
         name: 'TechSemester',
-        description: 'A brief description of project three.',
+        description: 'A marketplace for tech enthusiats and digital creators',
         logoStyle: { width: '50px', height: '50px' }, // Specific dimensions for project 1
     },
   ];

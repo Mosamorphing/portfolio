@@ -11,13 +11,13 @@
   }
   
   .links a {
-    color: gray; /* Default text color */
+    color: whitesmoke; /* Default text color */
     text-decoration: none; /* Remove underline */
     transition: color 0.3s; /* Smooth color transition */
   }
   
   .links a:hover {
-    color: white; /* Change text color on hover */
+    color: #4daf52; /* Change text color on hover */
     cursor: pointer; /* Pointer cursor on hover */
   }
   
