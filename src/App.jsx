@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/NavBar/navbar';
 import Skills from './components/Skills/skills';
+import IntroTemp from './components/IntroTemp/IntroTemp';
 import Works from './components/Works/works';
 import Links from './components/Links/Links';
 
@@ -9,7 +10,7 @@ const App = () => {
     <div className="App">
       <Navbar />
       <section id="Home">
-        <Intro />
+        <IntroTemp />
       </section>
       <section id="Portfolio">
         <Works />
