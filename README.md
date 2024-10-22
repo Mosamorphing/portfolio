@@ -1,6 +1,3 @@
-Here’s an updated version of your README that incorporates details about your project structure and features:
-
-```markdown
 # Portfolio
 
 This repository contains the source code for my personal portfolio website, built with **React** and **Vite**. The site is currently a work in progress, designed to showcase my projects, skills, and professional journey. As I continue to develop and enhance it, more components and features will be added to create a comprehensive online presence.
