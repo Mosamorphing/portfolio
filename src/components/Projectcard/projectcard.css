@@ -10,7 +10,15 @@
     height: 1.5in;
     text-align: left; /* Centers text content */
     /* margin: 10px; Optional: Adds space between multiple cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation */
+    cursor: pointer; /* Pointer cursor */
+    color: white;
 }
+
+.project-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+  }
 
 
 .project-card img {
