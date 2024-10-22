@@ -1,4 +1,4 @@
-#skills {
+/* #skills {
     overflow: hidden;
     width: 100vw;
     max-width: 85rem;
@@ -70,4 +70,56 @@
     .skillBarText>h2 {
         font-size: 5vw;
     }
-}
+} */
+
+
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center title */
+  }
+  
+  .skillTitle {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.7em; /* Space below the title */
+  }
+  
+  .skillsContainer {
+    display: grid; /* Use grid layout for two columns */
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 1em; /* Space between columns */
+  }
+  
+  .skillsColumn {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+  }
+  
+  .skillItem {
+    margin-bottom: 1em; /* Space between items */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover transition */
+  }
+  
+  .skillItem a {
+    display: block; /* Make the link fill the item */
+    padding: 1em; /* Add padding for better click area */
+    background-color: #30C88F; /* Background color */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 12px; /* Rounded corners */
+  }
+  
+  .skillItem:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+  }
+  
+  .skillItem a:hover {
+    background-color: #28a745; /* Darker shade on hover */
+  }
+  
+  

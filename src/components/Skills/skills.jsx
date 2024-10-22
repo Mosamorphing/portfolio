@@ -1,41 +1,36 @@
-import React from 'react'
-import './skills.css'
-import UIDesign from '../../../public/ui-design.png';
-import WebDesign from '../../../public/website-design.png';
-import AppDesign from '../../../public/app-design.png';
+import React from 'react';
+import './skills.css';
 
 export const Skills = () => {
   return (
     <section id="skills">
-        <span className="skillTitle"> About </span>
-        <span className="skillDesc">Mosadoluwa is a results-driven intrapreneur with a proven track record of managing and creating user-centred experiences across diverse industries. With a solid background in writing, design and technical domains, he has hands-on experience leading and collaborating with cross-functional AGILE teams.
-<br /><br /> His versatile background includes successful stints in the fashion, fintech, design, education, communications, and blockchain industries, making him adept at navigating various sectors to deliver cutting-edge solutions that resonate with users. 
-<br /><br />Combining creativity, technical acumen and a deep understanding of customer needs, he drives project, product and business excellence wherever you find him. 
-<br /><br />Mosadoluwa has a high EQ and great soft skills such as active listening, empathy, feedback management and the ability to blend in a new environment. These qualities are his secrets to working cross-functionally. Also, he believes no man builds alone and he is big on teamwork. </span>
-        {/* <div className="skillBars">
-            <div className="skillBar">
-                <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
-                <div className="skillBarText">
-                    <h2>UI/UX Design</h2>
-                    <p>This is a demo</p>
-                </div>
-            </div>
-            <div className="skillBar">
-                <img src={WebDesign} alt="WebDesign" className="skillBarImg" />
-                <div className="skillBarText">
-                    <h2>Web Deisgn</h2>
-                    <p>This is a demo</p>
-                </div>
-            </div> <div className="skillBar">
-                <img src={AppDesign} alt="AppDesign" className="skillBarImg" />
-                <div className="skillBarText">
-                    <h2>App Design</h2>
-                    <p>This is a demo</p>
-                </div>
-            </div>
-        </div> */}
+      <span className="skillTitle">Publications</span>
+      <div className="skillsContainer">
+        <div className="skillsColumn">
+          <div className="skillItem">
+            <a href="https://themoveee.com/gen-z-startups-and-the-art-of-collaboration-in-modern-work-culture/" target="_blank" rel="noopener noreferrer">Gen-Z, Startups, and the Art of Collaboration in Modern Work Culture</a>
+          </div>
+          <div className="skillItem">
+            <a href="https://themoveee.com/peopledao-the-nigerian-community-implementing-nfts-in-tackling-human-trafficking/" target="_blank" rel="noopener noreferrer">PeopleDAO: The Nigerian community Implementing NFTs in Tackling Human Trafficking</a>
+          </div>
+          <div className="skillItem">
+            <a href="https://themoveee.com/the-work-culture-and-the-new-breed-what-the-old-wineskin-means-for-the-new-wine/" target="_blank" rel="noopener noreferrer">The Work Culture and the New Breed: What the Old Wineskin Means for the New Wine</a>
+          </div>
+        </div>
+        <div className="skillsColumn">
+          <div className="skillItem">
+            <a href="https://github.com/bartosjiri/multisig-signer-incentives/tree/main" target="_blank" rel="noopener noreferrer">Multisignature Wallets (Research)</a>
+          </div>
+          <div className="skillItem">
+            <a href="https://themorphing500.substack.com/" target="_blank" rel="noopener noreferrer">Web3 Library for Newcomers (Newsletter) </a>
+          </div>
+          <div className="skillItem">
+            <a href="https://www.linkedin.com/posts/mosadoluwa-fasasi-4008b81a9_web2-web3-activity-7210891649088954369-YWOP?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer">My Evolution into Web3 (Article)</a>
+          </div>
+        </div>
+      </div>
     </section>
-  )
+  );
 }
 
-export default Skills
+export default Skills;

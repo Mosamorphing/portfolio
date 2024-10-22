@@ -1,0 +1,23 @@
+.links-container {
+    display: flex; /* Use flexbox on the parent container */
+    justify-content: center; /* Center child elements */
+    margin-top: 3em; /* Optional: add top margin */
+    margin-bottom: 5em;
+  }
+  
+  .links {
+    display: flex; /* Align links in a row */
+    gap: 1em; /* Space between links */
+  }
+  
+  .links a {
+    color: gray; /* Default text color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition */
+  }
+  
+  .links a:hover {
+    color: white; /* Change text color on hover */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  

@@ -6,13 +6,13 @@
   }
   
   .workstitle {
-    font-size: 2rem;
+    font-size: 3.5rem;
     font-weight: bold;
     margin-bottom: 20px;
   }
   
   .workDesc {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     color: white;
     margin-bottom: 40px; /* Space between description and cards */
   }

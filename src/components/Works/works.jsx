@@ -17,7 +17,7 @@ export const Works = () => {
     },
     {
         logo: wtflogo,
-        name: 'WTF Academy Africa',
+        name: 'WTF Academy (Africa)',
         description: 'An Open Source University for talents to get onchain ',
         logoStyle: { width: '83.5px', height: '35px', margin: '10px 0px' }, // Specific dimensions for project 2
       },
@@ -38,7 +38,7 @@ export const Works = () => {
   return (
     <section id="works">
       <h2 className='workstitle'>Portfolio</h2>
-      <span className="workDesc">These are some of the projects I've worked on over the last 24 months</span>
+      <span className="workDesc">These are some of the projects I've actively contributed to over the last 24 months</span>
       <div className="project-cards-container">
         {projects.map((project, index) => (
           <ProjectCard 
