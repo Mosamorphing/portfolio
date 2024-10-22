@@ -2,21 +2,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px; /* Optional: Add padding for smaller screens */
+    padding: 20px; 
   }
   
   .workstitle {
     font-size: 3.5rem;
     font-weight: bold;
     margin-bottom: 20px;
-    text-align: center; /* Center the title on smaller screens */
+    text-align: center; 
   }
   
   .workDesc {
     font-size: 1.25rem;
     color: white;
     margin-bottom: 40px;
-    text-align: center; /* Center description text */
+    text-align: center; 
   }
   
   .project-cards-container {

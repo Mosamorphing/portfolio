@@ -1,23 +1,23 @@
 .links-container {
-    display: flex; /* Use flexbox on the parent container */
-    justify-content: center; /* Center child elements */
-    margin-top: 3em; /* Optional: add top margin */
+    display: flex; 
+    justify-content: center; 
+    margin-top: 3em; 
     margin-bottom: 5em;
   }
   
   .links {
-    display: flex; /* Align links in a row */
-    gap: 1em; /* Space between links */
+    display: flex; 
+    gap: 1em; 
   }
   
   .links a {
-    color: whitesmoke; /* Default text color */
-    text-decoration: none; /* Remove underline */
-    transition: color 0.3s; /* Smooth color transition */
+    color: whitesmoke; 
+    text-decoration: none; 
+    transition: color 0.3s; 
   }
   
   .links a:hover {
-    color: #4daf52; /* Change text color on hover */
-    cursor: pointer; /* Pointer cursor on hover */
+    color: #4daf52; 
+    cursor: pointer; 
   }
   

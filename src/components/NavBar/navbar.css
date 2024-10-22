@@ -46,14 +46,14 @@
 
 
 .desktopMenuBtn:hover {
-    transform: translateY(-5px); /* Lift effect on hover */
+    transform: translateY(-5px); 
     color: #4daf52;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
 
   }
 
   .desktopMenuBtn a:hover {
-    background-color: #28a745; /* Darker shade on hover */
+    background-color: #28a745; 
   }
   
 

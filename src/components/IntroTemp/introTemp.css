@@ -37,10 +37,10 @@
 }
 
 .waveIcon {
-    width: 32px; /* Adjust size as needed */
+    width: 32px; 
     height: auto;
-    margin-left: 8px; /* Space between the icon and the text */
-    vertical-align: middle; /* Align the icon with the text */
+    margin-left: 8px; 
+    vertical-align: middle; 
   }
   
 
