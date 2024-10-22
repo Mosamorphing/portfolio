@@ -41,7 +41,7 @@ export const Works = () => {
   return (
     <section id="works">
       <h2 className='workstitle'>Portfolio</h2>
-      <span className="workDesc">These are some of the projects I've actively contributed to over the last 24 months</span>
+      <span className="workDesc">These are some of the projects I have actively contributed to over the last 24 months</span>
       <div className="project-cards-container">
         {projects.map((project, index) => (
           <ProjectCard 
