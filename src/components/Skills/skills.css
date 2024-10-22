@@ -77,49 +77,88 @@
 #skills {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center title */
+    align-items: center;
+    padding: 20px; /* Optional: Add padding for smaller screens */
   }
   
   .skillTitle {
     font-size: 3.5rem;
     font-weight: bold;
-    margin-top: 1em;
-    margin-bottom: 0.7em; /* Space below the title */
+    margin-top: 2em;
+    margin-bottom: 0.7em;
+    text-align: center; /* Center title for smaller screens */
   }
   
   .skillsContainer {
-    display: grid; /* Use grid layout for two columns */
-    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
-    gap: 1em; /* Space between columns */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    width: 100%; /* Ensure container takes up full width */
+    max-width: 1200px; /* Optional: Limit the max width */
   }
   
   .skillsColumn {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
+    flex-direction: column;
   }
   
   .skillItem {
-    margin-bottom: 1em; /* Space between items */
-    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover transition */
+    margin-bottom: 1em;
+    transition: transform 0.3s, box-shadow 0.3s;
   }
   
   .skillItem a {
-    display: block; /* Make the link fill the item */
-    padding: 1em; /* Add padding for better click area */
-    background-color: #30C88F; /* Background color */
-    color: white; /* Text color */
-    text-align: center; /* Center text */
-    text-decoration: none; /* Remove underline */
-    border-radius: 12px; /* Rounded corners */
+    display: block;
+    padding: 1em;
+    background-color: #30C88F;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
   }
   
   .skillItem:hover {
-    transform: translateY(-5px); /* Lift effect on hover */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   }
   
   .skillItem a:hover {
-    background-color: #28a745; /* Darker shade on hover */
+    background-color: #28a745;
   }
   
+  @media screen and (max-width: 840px) {
+    .skillTitle {
+      font-size: 3rem; /* Slightly reduce the title size */
+    }
+  
+    .skillsContainer {
+      grid-template-columns: repeat(1, 1fr); /* Switch to single column */
+      gap: 0.5em; /* Reduce gap between items */
+    }
+  
+    .skillItem a {
+      padding: 0.8em; /* Reduce padding for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .skillTitle {
+      font-size: 2.5rem; /* Further reduce the title size */
+      margin-bottom: 0.5em;
+    }
+  
+    .skillsContainer {
+      gap: 0.5em;
+    }
+  
+    .skillItem a {
+      padding: 0.7em; /* Further reduce padding */
+      font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+  
+    .skillItem:hover {
+      transform: none; /* Disable hover effects for small screens */
+      box-shadow: none;
+    }
+  }
   

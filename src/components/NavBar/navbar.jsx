@@ -8,9 +8,9 @@ const Navbar = () => {
     <nav className="navbar">
       <img src={logo} alt="logo" className='logo' />
       <div className='desktopMenu'>
-        <Link className="desktopMenuListItem">Home</Link>
-        <Link className="desktopMenuListItem">Portfolio</Link>
-        <Link className="desktopMenuListItem">Publications</Link>
+        <Link activeClass='active' to='Home' spy={true} smooth = {true} offset={-50} duration={500} className="desktopMenuListItem">Home</Link>
+        <Link activeClass='active' to='Portfolio' spy={true} smooth = {true} offset={-100} duration={500}className="desktopMenuListItem">Portfolio</Link>
+        <Link activeClass='active' to='Publications' spy={true} smooth = {true} offset={-100} duration={500}className="desktopMenuListItem">Publications</Link>
       </div>
       <a href="mailto:mosadoluwamorphing@gmail.com" className='desktopMenuBtn'>
         Send a Mail
