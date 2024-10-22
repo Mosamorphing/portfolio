@@ -7,9 +7,12 @@ import AppDesign from '../../../public/app-design.png';
 export const Skills = () => {
   return (
     <section id="skills">
-        <span className="skillTitle"> What I do </span>
-        <span className="skillDesc">Learn all about how to implement font using the API CSS code. A web font is any font used in a website’s design that isn’t installed by default on the end user’s device—a counterpart to a system font. Check out the articles below for more guidance: </span>
-        <div className="skillBars">
+        <span className="skillTitle"> About </span>
+        <span className="skillDesc">Mosadoluwa is a results-driven intrapreneur with a proven track record of managing and creating user-centred experiences across diverse industries. With a solid background in writing, design and technical domains, he has hands-on experience leading and collaborating with cross-functional AGILE teams.
+<br /><br /> His versatile background includes successful stints in the fashion, fintech, design, education, communications, and blockchain industries, making him adept at navigating various sectors to deliver cutting-edge solutions that resonate with users. 
+<br /><br />Combining creativity, technical acumen and a deep understanding of customer needs, he drives project, product and business excellence wherever you find him. 
+<br /><br />Mosadoluwa has a high EQ and great soft skills such as active listening, empathy, feedback management and the ability to blend in a new environment. These qualities are his secrets to working cross-functionally. Also, he believes no man builds alone and he is big on teamwork. </span>
+        {/* <div className="skillBars">
             <div className="skillBar">
                 <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
                 <div className="skillBarText">
@@ -30,7 +33,7 @@ export const Skills = () => {
                     <p>This is a demo</p>
                 </div>
             </div>
-        </div>
+        </div> */}
     </section>
   )
 }
