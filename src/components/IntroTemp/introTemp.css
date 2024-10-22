@@ -31,15 +31,49 @@
 .hello {
     font-size: 1.75rem;
     font-weight: 200;
+    margin-bottom: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.waveIcon {
+    width: 32px; /* Adjust size as needed */
+    height: auto;
+    margin-left: 8px; /* Space between the icon and the text */
+    vertical-align: middle; /* Align the icon with the text */
+  }
+  
+
+.introText {
+    font-weight: 650;
+}
+
+.introText2 {
+    font-weight: 200;
+    font-size: 35px;
+}
+
+.introText3 {
+    margin-top: 2.5rem;
+    font-weight: 700;
+    font-size: 2.4rem;
 }
 
 .introName {
     color: #4daf52;
 }
 
+.introName2 {
+    font-weight: 200;
+    font-size: 30px;
+
+}
+
 .introPara {
     font-size: medium;
     font-weight: 200;
+    margin-top: 2.5rem;
+    font-size: 24px;
 }
 
 .btn {
