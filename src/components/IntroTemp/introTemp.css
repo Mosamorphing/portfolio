@@ -91,7 +91,11 @@
     height: 1rem;
 }
 
-@media screen and (max-width: 552px) {
+@media screen and (max-width: 556px) {
+    .intro {
+    min-height: calc(50vh - 5rem);
+
+    }
     .bg {
         height: 50vh;
     }
