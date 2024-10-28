@@ -6,7 +6,7 @@ export const ProjectCard = ({ logo, name, description, logoStyle, url }) => {
     <a href={url} target="_blank" rel="noopener noreferrer" className="project-card"> 
       <img src={logo} alt={name} style={logoStyle} />
       <h3>{name}</h3>
-      <p>{description}</p>
+      <p className='projectDesc'>{description}</p>
     </a>
   );
 };

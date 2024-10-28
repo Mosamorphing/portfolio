@@ -19,7 +19,7 @@ export const Works = () => {
       logo: wtflogo,
       name: 'WTF Academy (Africa)',
       description: 'An Open Source University for talents to get onchain',
-      logoStyle: { width: '83px', height: '33px', margin: '10px 0px' },
+      logoStyle: { width: '83px', height: '33px', margin: '14px 0px' },
       url: 'https://www.wtf.academy/',
     },
     {
