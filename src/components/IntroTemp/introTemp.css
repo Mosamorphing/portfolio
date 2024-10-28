@@ -109,20 +109,20 @@
         font-size: 5vw; 
     }
     .introContent {
-        font-size: 3rem; /* Reduced from 4rem */
-        padding: 1rem; /* Adjust padding if needed */
+        font-size: 3rem; 
+        padding: 1rem; 
     }
     .introText2 {
-        font-size: 28px; /* Reduced from 44px */
+        font-size: 28px; 
     }
     .introText3 {
-        font-size: 2rem; /* Reduced from 3rem */
+        font-size: 2rem; 
     }
     .introName2 {
-        font-size: 28px; /* Reduced from 44px */
+        font-size: 28px; 
     }
     .introPara {
-        font-size: 1.4rem; /* Reduced from 1.6rem */
+        font-size: 1.4rem; 
     }
 }
 
@@ -131,21 +131,21 @@
         height: 60vh; 
     }
     .hello {
-        font-size: 4.5vw; /* Adjust for smaller screens */
+        font-size: 4.5vw; 
     }
     .introContent {
-        font-size: 2.5rem; /* Further reduced for very small screens */
+        font-size: 2.5rem; 
     }
     .introText2 {
-        font-size: 24px; /* Further reduced */
+        font-size: 24px; 
     }
     .introText3 {
-        font-size: 1.8rem; /* Further reduced */
+        font-size: 1.8rem; 
     }
     .introName2 {
-        font-size: 24px; /* Further reduced */
+        font-size: 24px; 
     }
     .introPara {
-        font-size: 1.2rem; /* Further reduced */
+        font-size: 1.2rem; 
     }
 }
