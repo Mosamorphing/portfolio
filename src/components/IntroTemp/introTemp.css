@@ -1,5 +1,6 @@
 #intro {
-    height: calc(100vh - 4rem);
+        height: auto; /* Allow it to adjust based on content */
+        overflow: visible; /* Make sure content is not cut off */
     width: 100vw;
     max-width: 85rem;
     margin: 0 auto;
@@ -46,7 +47,7 @@
 /* the name */
 .introContent {
     max-width: 100rem;
-    padding: 2rem;
+    padding: 1rem;
     font-size: 4rem;
     font-weight: 650;
     display: flex;
@@ -102,18 +103,15 @@
 
 @media screen and (max-width: 840px) {
     .bg {
-        height: 50vh;
-    }
-    .introContent {
-        font-size: 10vw;
+        height: 60vh; 
     }
     .hello {
-        font-size: 4.5vw;
+        font-size: 5vw; 
     }
 }
 
 @media screen and (max-width: 480px) {
     .bg {
-        height: 40vh;
+        height: 80vh;
     }
 }
