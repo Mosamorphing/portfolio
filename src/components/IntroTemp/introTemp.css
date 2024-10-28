@@ -1,6 +1,5 @@
 #intro {
-    height: auto; /* Allow it to adjust based on content */
-    overflow: visible; /* Make sure content is not cut off */
+    height: calc(100vh - 4rem);
     width: 100vw;
     max-width: 85rem;
     margin: 0 auto;
@@ -47,7 +46,7 @@
 /* the name */
 .introContent {
     max-width: 100rem;
-    padding: 1rem;
+    padding: 2rem;
     font-size: 4rem;
     font-weight: 650;
     display: flex;
@@ -103,49 +102,18 @@
 
 @media screen and (max-width: 840px) {
     .bg {
-        height: 60vh; 
-    }
-    .hello {
-        font-size: 5vw; 
+        height: 50vh;
     }
     .introContent {
-        font-size: 3rem; 
-        padding: 1rem; 
+        font-size: 10vw;
     }
-    .introText2 {
-        font-size: 28px; 
-    }
-    .introText3 {
-        font-size: 2rem; 
-    }
-    .introName2 {
-        font-size: 28px; 
-    }
-    .introPara {
-        font-size: 1.4rem; 
+    .hello {
+        font-size: 4.5vw;
     }
 }
 
 @media screen and (max-width: 480px) {
     .bg {
-        height: 60vh; 
-    }
-    .hello {
-        font-size: 4.5vw; 
-    }
-    .introContent {
-        font-size: 2.5rem; 
-    }
-    .introText2 {
-        font-size: 24px; 
-    }
-    .introText3 {
-        font-size: 1.8rem; 
-    }
-    .introName2 {
-        font-size: 24px; 
-    }
-    .introPara {
-        font-size: 1.2rem; 
+        height: 40vh;
     }
 }
