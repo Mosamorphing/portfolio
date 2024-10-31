@@ -11,7 +11,7 @@ export const Works = () => {
     {
       logo: multisight,
       name: 'Multisight',
-      description: 'A repository of information on Multisignature wallets',
+      description: 'Performance analytics on multisignature wallets',
       logoStyle: { width: '50px', height: '50px' },
       url: 'https://multisight.app/', 
     },
