@@ -10,7 +10,7 @@ export const Works = () => {
   const projects = [
     {
       logo: multisight,
-      name: 'Multisight (Safe Grantee '23)',
+      name: `Multisight (Safe Grantee '23)`,
       description: 'Performance analytics for multisignature wallets',
       logoStyle: { width: '50px', height: '50px' },
       url: 'https://multisight.app/', 
