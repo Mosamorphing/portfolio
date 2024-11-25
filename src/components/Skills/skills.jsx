@@ -4,7 +4,7 @@ import './skills.css';
 export const Skills = () => {
   return (
     <section id="skills">
-      <span className="skillTitle">Publications</span>
+      <span className="skillTitle">Publications & Media</span>
       <div className="skillsContainer">
         <div className="skillsColumn">
           <div className="skillItem">
@@ -20,6 +20,9 @@ export const Skills = () => {
         <div className="skillsColumn">
           <div className="skillItem">
             <a href="https://github.com/bartosjiri/multisig-signer-incentives/tree/main" target="_blank" rel="noopener noreferrer">Multisignature Wallets (Research)</a>
+          </div>
+          <div className="skillItem">
+            <a href="https://x.com/BitgetWallet/status/1767866865974718907" target="_blank" rel="noopener noreferrer">Speaker: Riding the Hottest Crypto Trends in 2024</a>
           </div>
           <div className="skillItem">
             <a href="https://themorphing500.substack.com/" target="_blank" rel="noopener noreferrer">Web3 Library for Newcomers (Newsletter) </a>
