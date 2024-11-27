@@ -18,14 +18,14 @@ export const Works = () => {
     {
       logo: wtflogo,
       name: 'WTF Academy (Africa)',
-      description: 'An Open Source University for talents to get onchain',
+      description: 'An Open Source Web3 University for Web2 talents to get onchain',
       logoStyle: { width: '83px', height: '33px', margin: '14px 0px' },
       url: 'https://www.wtf.academy/',
     },
     {
       logo: pdao, 
       name: 'PeopleDAO',
-      description: 'A metaDAO incubating public good projects for the people',
+      description: 'A metaDAO incubating public good projects and product for the people',
       logoStyle: { width: '49px', height: '49px' },
       url: 'https://people-dao.com/',
     },
