@@ -4,6 +4,7 @@ import ProjectCard from '../Projectcard/ProjectCard';
 import wtflogo from '../../../public/wtf.png';
 import multisight from '../../../public/multisight.png';
 import ts from '../../../public/ts.png';
+import scihub from '../../../public/scihub.png';
 import pdao from '../../../public/pdao.png';
 
 export const Works = () => {
@@ -21,6 +22,13 @@ export const Works = () => {
       description: 'An Open Source Web3 University for Web2 talents to get onchain',
       logoStyle: { width: '83px', height: '33px', margin: '14px 0px' },
       url: 'https://www.wtf.academy/',
+    },
+    {
+      logo: scihub,
+      name: 'Sci-Hub',
+      description: 'Making science great again through decentralized science (DeSci)',
+      logoStyle: { width: '50px', height: '50px' },
+      url: 'https://www.scihub.fans/', 
     },
     {
       logo: pdao, 
