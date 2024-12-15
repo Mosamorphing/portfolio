@@ -16,6 +16,9 @@ export const Skills = () => {
           <div className="skillItem">
             <a href="https://themoveee.com/the-work-culture-and-the-new-breed-what-the-old-wineskin-means-for-the-new-wine/" target="_blank" rel="noopener noreferrer">The Work Culture and the New Breed: What the Old Wineskin Means for the New Wine</a>
           </div>
+          <div className="skillItem">
+            <a href="https://peopledao.mirror.xyz/lqEBxnYUKSa3bSV2UpaXlEbb3TBv5iLdgmIjMDt3XBU" target="_blank" rel="noopener noreferrer">Origin Story: For The People NFT</a>
+          </div>
         </div>
         <div className="skillsColumn">
           <div className="skillItem">
@@ -29,6 +32,9 @@ export const Skills = () => {
           </div>
           <div className="skillItem">
             <a href="https://www.linkedin.com/posts/mosadoluwa-fasasi-4008b81a9_web2-web3-activity-7210891649088954369-YWOP?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer">My Evolution into Web3 (Article)</a>
+          </div>
+          <div className="skillItem">
+            <a href="https://peopledao.mirror.xyz/lqEBxnYUKSa3bSV2UpaXlEbb3TBv5iLdgmIjMDt3XBU" target="_blank" rel="noopener noreferrer">Interview session with Daniel Sheldon (For The People NFT Artist)  </a>
           </div>
         </div>
       </div>
