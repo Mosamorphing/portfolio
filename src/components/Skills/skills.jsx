@@ -19,10 +19,16 @@ export const Skills = () => {
           <div className="skillItem">
             <a href="https://peopledao.mirror.xyz/lqEBxnYUKSa3bSV2UpaXlEbb3TBv5iLdgmIjMDt3XBU" target="_blank" rel="noopener noreferrer">Origin Story: For The People NFT</a>
           </div>
+          <div className="skillItem">
+            <a href="https://peopledao.mirror.xyz/lqEBxnYUKSa3bSV2UpaXlEbb3TBv5iLdgmIjMDt3XBU" target="_blank" rel="noopener noreferrer">Interview session with Daniel Sheldon (For The People NFT Artist)  </a>
+          </div>
         </div>
         <div className="skillsColumn">
           <div className="skillItem">
             <a href="https://github.com/bartosjiri/multisig-signer-incentives/tree/main" target="_blank" rel="noopener noreferrer">Multisignature Wallets (Research)</a>
+          </div>
+          <div className="skillItem">
+            <a href="https://x.com/mofasasi/status/1867001626440912950" target="_blank" rel="noopener noreferrer">A Case for Decentralised Science (DeSci)  </a>
           </div>
           <div className="skillItem">
             <a href="https://x.com/BitgetWallet/status/1767866865974718907" target="_blank" rel="noopener noreferrer">Speaker: Ask Me Anything Session with Bitget Wallet</a>
@@ -32,9 +38,6 @@ export const Skills = () => {
           </div>
           <div className="skillItem">
             <a href="https://www.linkedin.com/posts/mosadoluwa-fasasi-4008b81a9_web2-web3-activity-7210891649088954369-YWOP?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer">My Evolution into Web3 (Article)</a>
-          </div>
-          <div className="skillItem">
-            <a href="https://peopledao.mirror.xyz/lqEBxnYUKSa3bSV2UpaXlEbb3TBv5iLdgmIjMDt3XBU" target="_blank" rel="noopener noreferrer">Interview session with Daniel Sheldon (For The People NFT Artist)  </a>
           </div>
         </div>
       </div>
