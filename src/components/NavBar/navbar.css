@@ -16,7 +16,7 @@
 
 .logo {
     object-fit: cover;
-    width: 3.5rem;
+    width: 2.5rem;
 }
 
 .desktopMenuListItem:hover {
@@ -61,7 +61,8 @@
 .mobMenu {
     display: none;
     object-fit: cover;
-    height: 1.8rem;
+    /* height: 1.6rem;
+    width: 2.2rem; */
 }
 
 .mobileMenuBtn {
@@ -132,10 +133,15 @@
     border-radius: 1rem;
 }
 
-
 @media screen and (max-width: 556px) {
     .mobMenu {
         display: flex;
+    height: 1.6rem;
+    width: 2.2rem;
+    }
+
+    .logo {
+        width: 2.6rem;
     }
     .desktopMenu {
         display: none;

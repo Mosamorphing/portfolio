@@ -9,23 +9,96 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <img src={logo} alt="logo" className='logo' />
-      <div className='desktopMenu'>
-        <Link activeClass='active' to='Home' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Home</Link>
-        <Link activeClass='active' to='Portfolio' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Portfolio</Link>
-        <Link activeClass='active' to='Publications' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Publications</Link>
+      <img src={logo} alt="logo" className="logo" />
+      <div className="desktopMenu">
+        <Link 
+          activeClass="active" 
+          to="Home" 
+          spy={true} 
+          smooth={true} 
+          offset={-100} 
+          duration={500} 
+          className="desktopMenuListItem"
+        >
+          Home
+        </Link>
+        <Link 
+          activeClass="active" 
+          to="Portfolio" 
+          spy={true} 
+          smooth={true} 
+          offset={-50} 
+          duration={500} 
+          className="desktopMenuListItem"
+        >
+          Portfolio
+        </Link>
+        <Link 
+          activeClass="active" 
+          to="Publications" 
+          spy={true} 
+          smooth={true} 
+          offset={-100} 
+          duration={500} 
+          className="desktopMenuListItem"
+        >
+          Publications
+        </Link>
       </div>
-      <a href="mailto:mosadoluwamorphing@gmail.com" className='desktopMenuBtn'>
+      <a href="mailto:mosadoluwamorphing@gmail.com" className="desktopMenuBtn">
         Send a Mail
-      </a>       
+      </a>
 
-      <img src={menu} alt="Menu" className='mobMenu' onClick={() => setShowMenu(!showMenu)} />
+      {/* Hamburger menu */}
+      <img 
+        src={menu} 
+        alt="Menu" 
+        className="mobMenu" 
+        onClick={() => setShowMenu(!showMenu)} 
+      />
       <div className="navMenu" style={{ display: showMenu ? 'flex' : 'none' }}>
-        <Link activeClass='active' to='Home' spy={true} offset={-100} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Home</Link>
-        <Link activeClass='active' to='Portfolio' spy={true} offset={-100} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Portfolio</Link>
-        <Link activeClass='active' to='Publications' spy={true} offset={-100} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Publications</Link>
-        <a href="mailto:mosadoluwamorphing@gmail.com" className='listItem mobileMenuBtn' onClick={() => setShowMenu(false)}>
-  Send a Mail
+        <Link 
+          activeClass="active" 
+          to="Home" 
+          spy={true} 
+          smooth={true} 
+          offset={-100} 
+          duration={500} 
+          className="listItem" 
+          onClick={() => setShowMenu(false)}
+        >
+          Home
+        </Link>
+        <Link 
+          activeClass="active" 
+          to="Portfolio" 
+          spy={true} 
+          smooth={true} 
+          offset={-150} 
+          duration={500} 
+          className="listItem" 
+          onClick={() => setShowMenu(false)}
+        >
+          Portfolio
+        </Link>
+        <Link 
+          activeClass="active" 
+          to="Publications" 
+          spy={true} 
+          smooth={true} 
+          offset={100} 
+          duration={500} 
+          className="listItem" 
+          onClick={() => setShowMenu(false)}
+        >
+          Publications
+        </Link>
+        <a 
+          href="mailto:mosadoluwamorphing@gmail.com" 
+          className="listItem mobileMenuBtn" 
+          onClick={() => setShowMenu(false)}
+        >
+          Send a Mail
         </a>
       </div>
     </nav>

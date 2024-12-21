@@ -11,16 +11,20 @@ const App = () => {
       <Navbar />
       <section id="Home">
         <IntroTemp />
+        
       </section>
       <section id="Portfolio">
         <Works />
       </section>
-      <section id="Skills">
+
+      <section id="Publications">
         <Skills />
       </section>
-      <section id="Publications">
+
+      <section id="Skills">
         <Links />
       </section>
+      
     </div>
   );
 };
