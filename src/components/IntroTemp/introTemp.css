@@ -57,9 +57,9 @@
 
 .introText3 { 
     margin-top: 4rem;
-    font-weight: 650;
     font-size: 4rem;
 }
+
 
 .introName {
     color: #4daf52;
@@ -101,7 +101,7 @@
         height: 50vh;
     }
     .introContent {
-        font-size: 11vw; /* Smaller for better fitting */
+        font-size: 11vw; 
     }
 
     .introText {
@@ -113,7 +113,8 @@
     }
 
     .introText3 { 
-        font-size: 9vw;
+        font-weight: 650;
+        font-size: 7.1vw;
     }
     
     .introText4 {
