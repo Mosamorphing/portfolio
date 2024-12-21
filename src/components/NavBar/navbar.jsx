@@ -74,7 +74,7 @@ const Navbar = () => {
           to="Portfolio" 
           spy={true} 
           smooth={true} 
-          offset={-150} 
+          offset={-30} 
           duration={500} 
           className="listItem" 
           onClick={() => setShowMenu(false)}
@@ -86,7 +86,7 @@ const Navbar = () => {
           to="Publications" 
           spy={true} 
           smooth={true} 
-          offset={100} 
+          offset={-5} 
           duration={500} 
           className="listItem" 
           onClick={() => setShowMenu(false)}
