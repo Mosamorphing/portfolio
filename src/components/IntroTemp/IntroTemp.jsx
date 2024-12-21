@@ -15,7 +15,8 @@ export const IntroTemp = () => {
         </span>
             <span className='introText'>The name is <span className='introName'>Mosadoluwa</span></span>
             <span className='introText2'>Adventurer, Thinker, Doer.</span>
-            <span className='introText3'>As an Intrapreneur, <br/> <span className='introName2'>I'm at the intersection of people, products, and profits.</span></span>
+            <span className='introText3'>As an Intrapreneur, </span>
+            <span className='introText4'>I'm at the intersection of people, products, and profits.</span>
         <p className="introPara">Below are some of my engagements over the last 24 months.
         </p>
         {/* <Link><button className="btn"><img src={btnImg} alt="" className='btnImg'/> Open to collaborations </button></Link> */}
